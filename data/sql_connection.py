@@ -7,10 +7,10 @@ class MySQLConnector:
         self.conn = None
         self.cursor = None
         self.config = {
-            "host": host or "10.10.10.238",
-            "user": user or "root",
-            "password": password or "Root@123",
-            "database": database or "opfrasu_demo"
+            "host": host or "",
+            "user": user or "",
+            "password": password or "",
+            "database": database or ""
         }
 
     def connect(self):
